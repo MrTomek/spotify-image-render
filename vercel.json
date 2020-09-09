@@ -2,6 +2,6 @@
   "routes": [
     { "src": "/playing.svg", "dest": "/api/spotify-playing" },
     { "src": "/playing2.svg", "dest": "/api/spotify-playing.py" },
-    { "src": "/no", "status": 418},
+    { "src": "/no", "status": 418}
   ]
 }
