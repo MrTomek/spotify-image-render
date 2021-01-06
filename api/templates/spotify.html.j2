@@ -94,16 +94,13 @@
 
                 {{css_bar|safe}}
             </style>
-
             {% if song_name %}
-
             <div class="main">
                 <a class="art" href="{}" target="_BLANK">
                     <center>
-                            <img src="data:image/png;base64, {{img}}" class="cover" />
+                        <img src="data:image/png;base64, {{img}}" class="cover" />
                     </center>
                 </a>
-
                 <div class="text">
                     <div class="song">{{song_name}}</div>
                     <div class="artist">{{artist_name}}</div>
@@ -111,12 +108,10 @@
                         {{content_bar|safe}}
                     </div>
                 </div>
-
                 {% else %}
                     <div class="playing not-play">Nothing playing on Spotify</div>
                 {% endif %}
             </div>
-
         </div>
     </foreignObject>
 </svg>
